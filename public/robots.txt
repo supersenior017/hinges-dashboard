@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hedgeplus.io
+
+# Sitemaps
+Sitemap: https://hedgeplus.io/sitemap.xml

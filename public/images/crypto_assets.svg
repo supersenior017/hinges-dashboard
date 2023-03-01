@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.076" height="44.075" viewBox="0 0 44.076 44.075">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6e8bff"/>
+      <stop offset="0.149" stop-color="#7288fe"/>
+      <stop offset="0.318" stop-color="#8081fe"/>
+      <stop offset="0.497" stop-color="#9776fe"/>
+      <stop offset="0.684" stop-color="#b766fd"/>
+      <stop offset="0.873" stop-color="#df52fd"/>
+      <stop offset="1" stop-color="#ff43fd"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_844" data-name="Group 844" transform="translate(-1372.558 -2230.027)">
+    <g id="Group_838" data-name="Group 838">
+      <path id="Path_780" data-name="Path 780" d="M1394.6,2274.1a22.037,22.037,0,1,1,22.038-22.038A22.063,22.063,0,0,1,1394.6,2274.1Zm0-42.075a20.037,20.037,0,1,0,20.038,20.037A20.06,20.06,0,0,0,1394.6,2232.027Z" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_839" data-name="Group 839">
+      <path id="Path_781" data-name="Path 781" d="M1394.6,2268.944a16.88,16.88,0,1,1,16.88-16.88A16.9,16.9,0,0,1,1394.6,2268.944Zm0-31.76a14.88,14.88,0,1,0,14.88,14.88A14.9,14.9,0,0,0,1394.6,2237.184Z" fill="#fff"/>
+    </g>
+    <g id="Group_843" data-name="Group 843">
+      <g id="Group_840" data-name="Group 840">
+        <path id="Path_782" data-name="Path 782" d="M1393.987,2260.258a4.8,4.8,0,0,1-4.545-3.251,1,1,0,1,1,1.893-.645,2.8,2.8,0,1,0,2.652-3.705,1.038,1.038,0,0,1-.169-.014,4.8,4.8,0,1,1,4.915-6.336,1,1,0,1,1-1.892.646,2.8,2.8,0,1,0-2.652,3.7,1.077,1.077,0,0,1,.169.014,4.8,4.8,0,0,1-.371,9.587Z" fill="#fff"/>
+      </g>
+      <g id="Group_841" data-name="Group 841">
+        <path id="Path_783" data-name="Path 783" d="M1394.189,2245.056a1,1,0,0,1-1-1v-2.467a1,1,0,0,1,2,0v2.467A1,1,0,0,1,1394.189,2245.056Z" fill="#fff"/>
+      </g>
+      <g id="Group_842" data-name="Group 842">
+        <path id="Path_784" data-name="Path 784" d="M1394.189,2262.972a1,1,0,0,1-1-1V2259.5a1,1,0,0,1,2,0v2.467A1,1,0,0,1,1394.189,2262.972Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

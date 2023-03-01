@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+
+/* start of your custom css */
+@font-face {
+  font-family: "quicksand-bold";
+  src: url("/fonts/Quicksand-Bold.ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "quicksand-semibold";
+  src: url("/fonts/Quicksand-SemiBold.ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-medium";
+  src: url("/fonts/Roboto-Medium.ttf");
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto-regular";
+  src: url("/fonts/Roboto-Regular.ttf");
+  font-weight: 300;
+  font-display: swap;
+}
+
+g > text {
+  font-size: 35px !important;
+  font-family: "quicksand-bold" !important;
+  font-display: swap;
+}
+
+@media screen and (max-width: 576px) {
+  g > text {
+    font-size: 20px !important;
+    font-family: "quicksand-bold" !important;
+    font-display: swap;
+  }
+}
+
+media
+
+.menu-bg{
+  top:0px !important;
+}
+/* end of your custom css */
+
+@tailwind utilities;

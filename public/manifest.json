@@ -1,0 +1,18 @@
+{
+    "theme_color": "#000064",
+    "background_color": "#000064",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "hedge-plus",
+    "short_name": "hedge-plus",
+    "orientation": "portrait",
+    "description": "The World\u2019s First Inclusive Dynamic Store of Value",
+    "icons": [
+        {
+            "src": "icons/hedgeplus-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
+}
