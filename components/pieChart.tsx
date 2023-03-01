@@ -117,21 +117,21 @@ export default function PieChart({ chart_data, chart_colors }) {
       colors={chart_colors}
       borderWidth={1}
       borderColor={{ from: "color", modifiers: [["darker", 0.2]] }}
-      radialLabel={function (e: any) {
-        return  e.value + "%";
-      }}
-      radialLabelsSkipAngle={0}
-      radialLabelsLinkOffset={0}
-      radialLabelsLinkDiagonalLength={0}
-      radialLabelsLinkHorizontalLength={isMobile ? 20 :100}
-      radialLabelsLinkStrokeWidth={2}
-      radialLabelsTextXOffset={2}
-      radialLabelsTextColor="#ffffff"
-      radialLabelsLinkColor="#ffffff"
-      enableRadialLabels={false}
-      enableSliceLabels={true}
-      sliceLabelsSkipAngle={10}
-      sliceLabelsTextColor="#ffffff"
+      // radialLabel={(e) => {
+      //   return  e.value + "%";
+      // }}
+      // radialLabelsSkipAngle={0}
+      // radialLabelsLinkOffset={0}
+      // radialLabelsLinkDiagonalLength={0}
+      // radialLabelsLinkHorizontalLength={isMobile ? 20 :100}
+      // radialLabelsLinkStrokeWidth={2}
+      // radialLabelsTextXOffset={2}
+      // radialLabelsTextColor="#ffffff"
+      // radialLabelsLinkColor="#ffffff"
+      // enableRadialLabels={false}
+      // enableSliceLabels={true}
+      // sliceLabelsSkipAngle={10}
+      // sliceLabelsTextColor="#ffffff"
       isInteractive={false}
       startAngle={360}
       endAngle={0}
