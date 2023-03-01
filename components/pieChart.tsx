@@ -117,7 +117,7 @@ export default function PieChart({ chart_data, chart_colors }) {
       colors={chart_colors}
       borderWidth={1}
       borderColor={{ from: "color", modifiers: [["darker", 0.2]] }}
-      radialLabel={function (e) {
+      radialLabel={function (e: any) {
         return  e.value + "%";
       }}
       radialLabelsSkipAngle={0}
