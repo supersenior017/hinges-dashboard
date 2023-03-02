@@ -20,7 +20,6 @@ export default function Tokenomics() {
     const percentage = [];
     const labels = [];
     const chart_colors = [];
-    // logic for making % always equal to 100
     let sum = 0;
 
     for (let i = 0; i < tokenomics_data.length; i++) {
@@ -113,8 +112,8 @@ export default function Tokenomics() {
                         <div
                           className="w-[2px] h-[18px] mr-[8px] sm:w-[2px] sm:h-[23px] sm:mr-10"
                           style={{ background: item.color }}
-                        ></div>
-
+                        >
+                        </div>
                         <p className=" font-bold sm:text-[25px] text-[18px]  mr-[4px] sm:mr-5 text-center">
                           {item.value}%
                         </p>
