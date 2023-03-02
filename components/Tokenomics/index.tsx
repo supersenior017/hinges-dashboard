@@ -3,7 +3,6 @@ import dynamic from "next/dynamic";
 import useTranslation from "next-translate/useTranslation";
 import { Fade } from "react-awesome-reveal";
 import transContent from "../../trans/TransContent";
-const PieChart = dynamic(import("../pieChart"));
 import { useMediaQuery } from "react-responsive";
 
 export default function Tokenomics() {
@@ -84,27 +83,6 @@ export default function Tokenomics() {
           <div className="min-w-[300px] w-[50%] my-[40px] m-auto">
             <img src="/images/pie-chart.png" />
           </div>
-          {/* {isDesktopOrLaptop && (
-            <div className="relative lg:h-[650px] h-[375px] md:h-[700px]  sm:mt-[50px]">
-              <img
-                className="absolute w-[60px] top-[45%] hidden md:block lg:block left-[49%]"
-                src="./images/chart-icon.png"
-                alt=""
-              />
-              <PieChart chart_data={chartData} chart_colors={chartColors} />
-            </div>
-          )}
-
-          {!isDesktopOrLaptop && (
-            <div className="flex relative lg:h-[650px] h-[375px] md:h-[700px] sm:mt-[50px] justify-center">
-              <img
-                className="absolute w-[60px] top-[41%] md:block lg:block"
-                src="./images/chart-icon.png"
-                alt=""
-              />
-              <PieChart chart_data={chartData} chart_colors={chartColors} />
-            </div>
-          )} */}
 
           <div className="pt-5 my-0 sm:mb-20 mb-5 bg-[#7857eb] lg:mx-16 mx-2 rounded-lg">
             <div className="horizontal_container px-14 md:px-6 xl:px-8 py-2">

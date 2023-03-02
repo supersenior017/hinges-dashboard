@@ -1,6 +1,7 @@
 {
     "available_soon": "AVAILABLE SOON",
-    "come_and_join_us": "JOIN US",
+    "referral_join": "Hey! Join our referral program.",
+    "come_and_join_us": "Join Now",
     "community-partner": "LOVED BY COMMUNITY",
     "community-partner2": "& PARTNERS",
     "faq_answer_1": "Hinges's mission is to make CeDefi easy, safe, and accessible to more people.",
@@ -23,6 +24,8 @@
     "introduction_string2": "The diverse backgrounds of our skilled team include banking, technology, and venture capital.",
     "introduction_string3": "More than 12 designers, developers, engineers, and 30 operationally active advisers operate behind the scenes to ensure technological efficacy.",
     "introduction_string4": "We commit our elite group to advance the blockchain sector. We passionately believe that censorship, a person's social or economic standing, beliefs, and values, shouldn't restrict their access to the financial markets.",
+    "referral_string1": "Get a 10% commission on the sum invested by your referral. For instance, if your referral invests $10,000, you will receive $1000.",
+    "referral_string2": "Additionally, you will receive 50 HINGES for every person you recruit to participate in the project. The top 10 leaders on the leaderboard will split a further reward pool of $3000.",
     "introduction_string3_part2": "with a link to something you have built, your resume, and any thoughts on what we're working on.",
     "introduction_string3_part3": " if you are interested in investments or partnerships.",
     "introduction_string_part_1": "Remote, Freelance, Full-Time, and Part-Time, Senior or Junior? We welcome everyone.",

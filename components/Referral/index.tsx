@@ -27,18 +27,18 @@ export default function Referral() {
                                 </div>
                                 <div>
                                     <div className={`sm:text-[#7857EB] text-[#7857EB] my-[20px] text-center sm:text-left ${isDesktopOrLaptop ? 'text-[40px]' : 'text-[35px]'} font-['quicksand-bold']`}>
-                                        {t('who_we_are')}
+                                        {t('referral_join')}
                                     </div>
                                 </div>
 
                                 <div className="aboutus_text text-center sm:text-left">
                                     <p className=" text-[#001A57] sm:text-[#654dd2] text-[18px] font-['roboto-regular']">
-                                        {t("introduction_string1")} </p>
+                                        {t("referral_string1")} </p>
                                 </div>
 
                                 <div className="text-center sm:text-left">
                                     <p className="text-[#001A57] sm:text-[#654dd2] text-[18px] my-5  font-['roboto-regular']">
-                                        {t("introduction_string2")}
+                                        {t("referral_string2")}
                                     </p>
                                 </div>
                                 <div className=" text-[#ffffff] font-['roboto-regular'] w-full my-[20px]">
