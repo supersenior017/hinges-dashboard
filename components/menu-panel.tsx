@@ -116,10 +116,10 @@ export default function MenuPanel({ handleMenu }) {
               </div>
             </div>
             <p className="py-2 text-xl">
-              <a href="/">
+              <Link to="/">
                 {/* {t('header.whitepaper')} */}
                 whitepaper
-              </a>
+              </Link>
             </p>
             <p className="py-2 text-xl">
               <Link to="referral">Refer and Earn</Link>
