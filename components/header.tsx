@@ -4,7 +4,7 @@ import MenuButton from "./menu-button";
 import LanguageSelector from "./languageSelector";
 import { useTranslation } from "next-i18next";
 import { useMediaQuery } from "react-responsive";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { DiscordIcon, TelegramIcon } from "./svgIcon";
 
 export default function Header() {
@@ -56,17 +56,12 @@ export default function Header() {
               <div className="flex items-center">
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
                   <p>
-                    <a href="https://github.com/hingeslab">Buy&nbsp;HINGES</a>
-                  </p>
-                </div>
-                <div className="nav_item mx-2 font-['quicksand-semibold']">
-                  <p>
                     <a href="">Whitepaper</a>
                   </p>
                 </div>
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
                   <p>
-                    <a href="https://github.com/hingeslab">GitHub</a>
+                    <Link to="referral" smooth={true} offset={50} duration={500}>Refer and Earn</Link>
                   </p>
                 </div>
               </div>

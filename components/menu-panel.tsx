@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import MenuButton from "./menu-button";
 import { DiscordIcon, TelegramIcon } from "./svgIcon";
 
@@ -111,18 +111,18 @@ export default function MenuPanel({ handleMenu }) {
                     <div className="mr-2 transition delay-150 duration-300 ease-in-out transform hover:scale-110">
                       <TelegramIcon color="white" width="30px" />
                     </div>
-                  </a>☻
+                  </a>
                 </div>
               </div>
             </div>
             <p className="py-2 text-xl">
-              <Link href="/docs">
+              <a href="/">
                 {/* {t('header.whitepaper')} */}
                 whitepaper
-              </Link>
+              </a>
             </p>
             <p className="py-2 text-xl">
-              <Link href="https://github.com/hingeslab">GitHub</Link>
+              <Link to="referral">Refer and Earn</Link>
             </p>
             <div
               className="py-2 flex flex-row items-center flex-col"

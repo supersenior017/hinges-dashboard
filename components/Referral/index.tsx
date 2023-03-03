@@ -13,7 +13,7 @@ export default function Referral() {
 
     return (
         <>
-            <section className="section-about">
+            <section className="section-about" id="referral">
                 <div className="main_container mx-auto px-8 py-2 md:py-4">
                     <div className="about_us_container">
                         <div className={`${isDesktopOrLaptop ? 'flex' : 'block'} justify-between`}>
