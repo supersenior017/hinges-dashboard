@@ -61,7 +61,7 @@ export default function Header() {
                 </div>
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
                   <p>
-                    <Link to="referral" smooth={true} offset={50} duration={500}>Refer and Earn</Link>
+                    <a href="/referraltoearn" target="_blank" rel="noopener noreferrer">Refer and Earn</a>
                   </p>
                 </div>
               </div>

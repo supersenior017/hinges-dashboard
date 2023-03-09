@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { useEffect, useState, useLayoutEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Header from "../components/header";
 import HeroSection from "../components/HeroSection";
 import ProductsSection from "../components/productSection";
@@ -10,7 +10,6 @@ import Roadmap from "../components/Roadmap";
 import Faq from "../components/Faq";
 import Footer from "../components/footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Referral from "@/components/Referral";
 
 const partners = [
   {
@@ -89,7 +88,6 @@ const Home = () => {
       <Tokenomics />
       <Introduce />
       <Roadmap />
-      <Referral />
       <Faq partners={partners} />
       <Footer />
     </div>

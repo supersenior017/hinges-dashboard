@@ -13,7 +13,7 @@ export default function Referral() {
 
     return (
         <>
-            <section className="section-about" id="referral">
+            <section className="section-about h-screen flex flex-col justify-center" id="referral">
                 <div className="main_container mx-auto px-8 py-2 md:py-4">
                     <div className="about_us_container">
                         <div className={`${isDesktopOrLaptop ? 'flex' : 'block'} justify-between`}>
@@ -66,17 +66,6 @@ export default function Referral() {
                         </div>
                     </div>
                 </div >
-                {/* {
-                    !isDesktopOrLaptop &&
-                    <div className=" text-[#ffffff] font-['roboto-regular'] bg-[#7857eb] p-2">
-                        <p className="text-[#0c225f] my-[20px]  text-center sm:text-left text-[36px] font-['quicksand-bold']">{t("come_and_join_us")}</p>
-                        <p className="my-[10px] mx-[20px] text-[18px]">{t("introduction_string_part_1")}<br />
-                            <span className="text-[#0c225f]"><b>Get in touch</b></span><br />
-                            {t("send_us_email")} <Link href="#"><b className="text-[#0c225f]">hello@hinges.io</b></Link> {t("introduction_string3_part2")}
-                            {t("send_us_email")} <b className="text-[#0c225f]">
-                                <Link href="#"> fundmanager@hinges.io </Link></b>{t("introduction_string3_part3")}</p>
-                    </div>
-                } */}
             </section>
         </>
     );

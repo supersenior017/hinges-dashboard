@@ -122,7 +122,7 @@ export default function MenuPanel({ handleMenu }) {
               </Link>
             </p>
             <p className="py-2 text-xl">
-              <Link to="referral">Refer and Earn</Link>
+              <a href="/referraltoearn" target="_blank" rel="noopener noreferrer">Refer and Earn</a>
             </p>
             <div
               className="py-2 flex flex-row items-center flex-col"
