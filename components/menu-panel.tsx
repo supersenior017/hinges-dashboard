@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useRouter } from "next/router";
+import NextLink from "next/link";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import MenuButton from "./menu-button";
@@ -122,7 +123,7 @@ export default function MenuPanel({ handleMenu }) {
               </Link>
             </p>
             <p className="py-2 text-xl">
-              <a href="/referraltoearn" target="_blank" rel="noopener noreferrer">Refer and Earn</a>
+              <NextLink href="/referraltoearn">Refer and Earn</NextLink>
             </p>
             <div
               className="py-2 flex flex-row items-center flex-col"

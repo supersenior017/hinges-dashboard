@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MenuPanel from "./menu-panel";
+import NextLink from "next/link";
 import MenuButton from "./menu-button";
 import LanguageSelector from "./languageSelector";
 import { useTranslation } from "next-i18next";
@@ -61,7 +62,7 @@ export default function Header() {
                 </div>
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
                   <p>
-                    <a href="/referraltoearn" target="_blank" rel="noopener noreferrer">Refer and Earn</a>
+                    <NextLink href="/referraltoearn">Refer and Earn</NextLink>
                   </p>
                 </div>
               </div>
