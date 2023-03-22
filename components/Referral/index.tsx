@@ -1,8 +1,5 @@
-import { useState } from "react";
-import styled from "styled-components";
 import { useMediaQuery } from 'react-responsive'
 import Link from "next/link";
-import { Fade } from "react-awesome-reveal"
 import useTranslation from 'next-translate/useTranslation';
 
 export default function Referral() {
@@ -41,9 +38,15 @@ export default function Referral() {
                                         {t("referral_string2")}
                                     </p>
                                 </div>
-                                <div className=" text-[#ffffff] font-['roboto-regular'] w-full my-[20px]">
-                                    <p className={`${isDesktopOrLaptop ? '' : 'm-auto'} text-center sm:text-left text-[25px]  px-[20px] rounded-md bg-[#7857eb] w-fit font-['quicksand-bold']`}>{t("come_and_join_us")}</p>
-                                </div>
+                                <a
+                                    href="/join"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <div className=" text-[#ffffff] font-['roboto-regular'] cursor-pointer w-full my-[20px]">
+                                        <p className={`${isDesktopOrLaptop ? '' : 'm-auto'} text-center sm:text-left text-[25px]  px-[20px] rounded-md bg-[#7857eb] w-fit font-['quicksand-bold']`}>{t("come_and_join_us")}</p>
+                                    </div>
+                                </a>
 
                                 <div className="mb-[20px] text-[#b7b7b7] font-['roboto-regular'] w-full p-[10px] rounded-md">
                                     <p className={`${isDesktopOrLaptop ? '' : 'm-auto'} text-center underline sm:text-left text-[20px] w-fit font-['quicksand-bold']`}>{t("how_it_works")}</p>
