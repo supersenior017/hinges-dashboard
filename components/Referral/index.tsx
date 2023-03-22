@@ -38,12 +38,8 @@ export default function Referral() {
                                         {t("referral_string2")}
                                     </p>
                                 </div>
-                                <a
-                                    href="/join"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <div className=" text-[#ffffff] font-['roboto-regular'] cursor-pointer w-full my-[20px]">
+                                <a href="https://hinges.io/join" rel="noopener noreferrer" target="_blank">
+                                    <div className=" text-[#ffffff] font-['roboto-regular'] w-full my-[20px]">
                                         <p className={`${isDesktopOrLaptop ? '' : 'm-auto'} text-center sm:text-left text-[25px]  px-[20px] rounded-md bg-[#7857eb] w-fit font-['quicksand-bold']`}>{t("come_and_join_us")}</p>
                                     </div>
                                 </a>

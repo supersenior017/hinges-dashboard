@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Referral from "@/components/Referral";
 
 const Join = () => {
 

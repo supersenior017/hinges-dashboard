@@ -16,7 +16,7 @@ const MyApp = ({ Component, pageProps }) => {
         <link rel="icon" href="/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="/manifest.json" />
-        <script type="text/javascript" src="/static/widget.js"></script>
+        <script type="text/javascript" src="/static/widget.js" async ></script>
       </Head>
 
       <Component {...pageProps} />
