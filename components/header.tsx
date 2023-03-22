@@ -43,7 +43,7 @@ export default function Header() {
             <div className="logo-wrapper sm:mx-0">
               <a href="https://hinges.io/">
                 <img
-                  className="logo "
+                  className="logo"
                   src="/images/hinges-logo.png"
                   alt="Hinges logo"
                   width={140}
@@ -57,7 +57,11 @@ export default function Header() {
               <div className="flex items-center">
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
                   <p>
-                    <a href="">Whitepaper</a>
+                    <a
+                      href="https://docs.hinges.io/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >Whitepaper</a>
                   </p>
                 </div>
                 <div className="nav_item mx-2 font-['quicksand-semibold']">
@@ -73,7 +77,7 @@ export default function Header() {
                   <div className="social_box">
                     <a
                       className="nav_item"
-                      href="https://discord.gg/hkqAHKUVGK"
+                      href="https://discord.gg/gC7cYZ4bbm"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

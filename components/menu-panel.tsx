@@ -99,7 +99,7 @@ export default function MenuPanel({ handleMenu }) {
                 <div className="flex flex-row">
                   <a
                     className="nav_item"
-                    href="https://discord.gg/XpqkTbNcKM"
+                    href="https://discord.gg/gC7cYZ4bbm"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -117,10 +117,13 @@ export default function MenuPanel({ handleMenu }) {
               </div>
             </div>
             <p className="py-2 text-xl">
-              <Link to="/">
-                {/* {t('header.whitepaper')} */}
+              <a
+                href="https://docs.hinges.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 whitepaper
-              </Link>
+              </a>
             </p>
             <p className="py-2 text-xl">
               <NextLink href="/referraltoearn">Refer and Earn</NextLink>

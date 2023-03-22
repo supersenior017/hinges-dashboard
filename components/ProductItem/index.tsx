@@ -29,7 +29,7 @@ export default function ProductItem({ productitem }) {
                   <div className="text-center md:text-left text-[#ffffff] sm:text-[24px] text-[30px] font-bold font-['quicksand-bold'] mt-2 leading-[1.2]">
                     {productitem.name}
                   </div>
-                  <div className="text-center md:text-left text-[#ffffff] sm:text-[14px] text-[18px] my-6 font-['roboto-regular']">
+                  <div className="text-center md:text-left text-[#ffffff] sm:text-[18px] text-[16px] my-6 font-['roboto-regular']">
                     {productitem.description}
                   </div>
                   <div className="transition delay-150 duration-300 ease-in-out transform hover:shadow-[#50d71e]">

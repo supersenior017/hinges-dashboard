@@ -36,7 +36,7 @@ export default function Footer() {
               <div className="sm:pr-6">
                 <YoutubeIcon color="#7857eb" width="50px" />
               </div>
-              <a className="nav_item" href="https://discord.gg/hkqAHKUVGK" target="_blank" rel="noopener noreferrer">
+              <a className="nav_item" href="https://discord.gg/gC7cYZ4bbm" target="_blank" rel="noopener noreferrer">
                 <div className="sm:pr-6">
                   <DiscordIcon color="#7857eb" width="50px" />
                 </div>
@@ -73,7 +73,7 @@ export default function Footer() {
               <div className="m-3">
                 <YoutubeIcon color="#7857eb" width="40px" />
               </div>
-              <a className="nav_item" href="https://discord.gg/hkqAHKUVGK" target="_blank" rel="noopener noreferrer">
+              <a className="nav_item" href="https://discord.gg/gC7cYZ4bbm" target="_blank" rel="noopener noreferrer">
                 <div className="m-3">
                   <DiscordIcon color="#7857eb" width="40px" />
                 </div>
